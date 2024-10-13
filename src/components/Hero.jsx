@@ -19,7 +19,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <h3 className="text-secondaryColor text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Unlock your FrontEnd career
+            Unlock your BackEnd career
           </h3>
         </motion.div>
         <motion.div
@@ -32,7 +32,7 @@ export const Hero = () => {
             <h1 className="hidden md:inline">Prepare for your next</h1>
           </div>
           <h1 className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-primaryText  px-8 sm:px-20 md:px-24 lg:px-24">
-            FrontEnd Interview
+          BackEnd Interview
           </h1>
         </motion.div>
         <motion.div
@@ -41,7 +41,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Begin your journey to FrontEnd interview mastery with our detailed
+            Begin your journey to BackEnd interview mastery with our detailed
             and easy-to-understand explanations.
           </h2>
         </motion.div>
