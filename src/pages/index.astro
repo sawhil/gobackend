@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Hero } from "../components/Hero.jsx";
+import { Navbar } from "../components/Navbar.jsx";
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+---
+
+<Layout title="GoFrontEnd | FrontEnd Interview Preparation">
+  <Navbar client:load />
+  <Hero client:load />
+</Layout>
