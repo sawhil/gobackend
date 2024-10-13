@@ -37,7 +37,7 @@ export const Footer = () => {
                   <TailcastLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
-                  GoFrontEnd
+                  gobackend
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
@@ -78,7 +78,9 @@ export const Footer = () => {
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-primaryText">Products</h3>
+                <h3 className="mb-6 text-2xl font-bold text-primaryText">
+                  Products
+                </h3>
                 <ul>
                   {footerData[0].items.map((item, index) => (
                     <li key={`${item}-${index}`} className="mb-4">
@@ -112,7 +114,9 @@ export const Footer = () => {
                 </ul>
               </div>
               <div className="w-full md:w-1/3 lg:w-auto">
-                <h3 className="mb-6 text-2xl font-bold text-primaryText">Company</h3>
+                <h3 className="mb-6 text-2xl font-bold text-primaryText">
+                  Company
+                </h3>
                 <ul>
                   {footerData[2].items.map((item, index) => (
                     <li key={`${item}-${index}`} className="mb-4">
